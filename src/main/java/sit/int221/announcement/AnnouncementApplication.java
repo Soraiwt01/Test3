@@ -1,0 +1,16 @@
+package sit.int221.announcement;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+@SpringBootApplication
+public class AnnouncementApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(AnnouncementApplication.class, args);
+    }
+
+
+}
