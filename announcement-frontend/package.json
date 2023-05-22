@@ -1,0 +1,27 @@
+{
+  "name": "annoucement-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/kp1/",
+    "preview": "vite preview",
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "@vaadin/time-picker": "^24.0.4",
+    "@vueup/vue-quill": "^1.2.0",
+    "daisyui": "^2.51.6",
+    "pinia": "^2.0.36",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "cypress": "^12.11.0",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.1.4"
+  }
+}
